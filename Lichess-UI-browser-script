@@ -39,6 +39,7 @@ this.$ = this.jQuery = jQuery.noConflict(true);
             $(this).css("-webkit-box-shadow", "0px 0px 10px rgba(0, 0, 0, 0.8)");
             $(this).parents(".ui-dialog").css("-webkit-box-shadow", "0px 0px 10px rgba(0, 0, 0, 0.8)");
             $(this).parents(".ui-dialog").css("-moz-box-shadow", "0px 0px 10px rgba(0, 0, 0, 0.8)");
+            $(this).parents(".ui-dialog").css("background-color", "#E0E0E0");
         },
     }
     );
